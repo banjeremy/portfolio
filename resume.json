@@ -1,0 +1,133 @@
+{
+  "name": "Jeremy Jones",
+  "profession": "Full Stack Developer",
+  "location": "Nashville",
+  "image": "/img/jeremy.jpg",
+  "keywords": "Full Stack Developer,HTML5,HTML,Less,Sass,CSS3,CSS,XML,JavaScript,AngularJS,jQuery,json,Nashville,Tennessee",
+  "pageTitle": "Jeremy Jones, Developer",
+  "greeting": [
+    "Hi, I'm Jeremy!",
+    "I am a Developer."
+  ],
+  "devicons": [
+    "html5",
+    "dotnet",
+    "nodejs_small",
+    "ruby_on_rails",
+    "ruby",
+    "javascript",
+    "angular",
+    "sass",
+    "less",
+    "css3",
+    "grunt",
+    "gulp",
+    "bower",
+    "npm",
+    "visualstudio",
+    "msql_server",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "scrum",
+    "bitbucket",
+    "github_badge",
+    "atlassian",
+    "trello"
+  ],
+  "projects": [
+    {
+      "image": "",
+      "name": "NashvesTN",
+      "url": "http://github.com/banjeremy/nashvestn"
+    },
+    {
+      "image": "",
+      "name": "Angular Mad Libs",
+      "url": "http://github.com/banjeremy/"
+    },
+    {
+      "image": "",
+      "name": "Another project",
+      "url": "http://github.com/banjeremy/"
+    }
+  ],
+  "social": [
+    {
+      "name": "twitter",
+      "url": "http://twitter.com/banjeremy"
+    },
+    {
+      "name": "linkedin",
+      "url": "http://linkedin.com/in/banjeremy"
+    },
+    {
+      "name": "github",
+      "url": "http://github.com/banjeremy"
+    },
+    {
+      "name": "envelope",
+      "url": "mailto:banjeremy@gmail.com"
+    }
+  ],
+  "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "skills": {
+    "geek": [
+      "HTML5",
+      "CSS3/Less/Sass",
+      "Javascript & jQuery",
+      "AngularJS",
+      "NodeJS",
+      "Ruby on Rails",
+      "ASP.Net MVC",
+      "SQL/NoSQL"
+    ],
+    "human": [
+      "Front-end Development",
+      "UI Implementation",
+      "Interactive Websites",
+      "Responsive Web Design",
+      "Agile / Scrum",
+      "System Architecture",
+      "Web-based applications",
+      "System Administration"
+    ]
+  },
+  "resume": {
+    "summary": "Web developer with over 4 years of project experience.  Familiar with server side and client side development.  Team oriented, agile developer.  Problem solver.  Generalist.  Polyglot.",
+    "experience": [
+      {
+        "company": "2-com",
+        "title": "Software Developer",
+        "startDate": "July, 2013",
+        "endDate": null,
+        "description": "Senior developer on numerous client projects using a variety of technology stacks including Asp.Net MVC, Ruby on Rails, and AngularJS.  Responsible for architecture, development, deployment, and maintenance."
+      },
+      {
+        "company": "Deloitte Consulting",
+        "title": "Web Developer",
+        "startDate": "July, 2012",
+        "endDate": "July, 2013",
+        "description": "Developer responsible for contributing to multiple simultaneous client projects.  Wrote applications for various platforms, including mobile, web, and enterprise.  Responsible for making technical and design decisions collaboratively in an agile environment."
+      },
+      {
+        "company": "University of Southern Mississippi",
+        "title": "Research Assistant",
+        "startDate": "August, 2010",
+        "endDate": "July, 2012",
+        "description": "Lead developer on a web-based graphics engine for simulation and training written in JavaScript and built WebGL and Three.js."
+      }
+    ],
+    "accolades": [
+      "Finalist at HackNashville6 on the NashvesTN project"
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "University of Southern Mississippi",
+        "location": "Hattiesburg, MS",
+        "graduationDate": "May, 2012"
+      }
+    ]
+  }
+}

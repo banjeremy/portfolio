@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,200);
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #222;
+  background-color: #E6E6E6; }
+  body header {
+    background-color: #222;
+    color: #E6E6E6;
+    text-align: center;
+    width: 100%; }
+    body header .greeting {
+      letter-spacing: 1px; }
+      body header .greeting h1 {
+        font-size: 36px;
+        margin-top: 0; }
+      body header .greeting h2 {
+        font-size: 24px;
+        font-weight: 200; }
+  body .container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    overflow: hidden; }
+  body #tools {
+    margin: 40px 0;
+    text-align: center; }
+    body #tools h2 {
+      text-align: left; }
+    body #tools .devicons {
+      color: #D63C1D;
+      display: inline-block;
+      font-size: 50px;
+      width: 50px;
+      margin: 20px; }
+  body #work {
+    background-color: #222;
+    color: #E6E6E6;
+    text-align: center;
+    padding: 40px 0; }
+    body #work h2 {
+      margin-top: 0;
+      letter-spacing: 1px;
+      text-align: left; }
+    body #work #project {
+      display: inline-block;
+      margin: 0 20px; }
+      body #work #project h4 {
+        color: #E6E6E6;
+        font-weight: 200;
+        border-bottom: 1px dashed #E6E6E6;
+        display: inline-block;
+        padding: 0 20px; }
+        body #work #project h4 span {
+          letter-spacing: 1px;
+          width: 200px;
+          display: inline-block;
+          border-bottom: 3px solid #E6E6E6;
+          position: relative;
+          top: 2px;
+          padding-bottom: 5px;
+          text-align: center; }
+      body #work #project img {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px; }
+  body #social {
+    padding: 40px; }
+    body #social ul {
+      margin: 20px 0;
+      list-style: none;
+      padding: 0;
+      text-align: center; }
+      body #social ul li {
+        display: inline-block;
+        width: 25%; }
+        body #social ul li a {
+          color: #008173;
+          text-decoration: none; }
+          body #social ul li a:hover, body #social ul li a:active {
+            color: #00CEBE; }
+  body #about {
+    background-color: #2d2d2d;
+    padding: 40px 0; }
+    body #about h2 {
+      color: #E6E6E6;
+      font-weight: 200;
+      border-bottom: 1px dashed #E6E6E6;
+      display: inline-block;
+      padding: 0 20px; }
+      body #about h2 span {
+        letter-spacing: 1px;
+        width: 200px;
+        display: inline-block;
+        border-bottom: 3px solid #E6E6E6;
+        position: relative;
+        top: 2px;
+        padding-bottom: 5px;
+        text-align: center; }
+    body #about img {
+      max-width: 300px;
+      float: left;
+      width: 40%; }
+    body #about .blurb {
+      padding-left: 60px;
+      width: 60%;
+      float: left; }
+      body #about .blurb p {
+        color: #E6E6E6;
+        line-height: 25px;
+        letter-spacing: 1px; }
+    body #about .skills {
+      float: left;
+      padding-left: 60px;
+      color: #777; }
+      body #about .skills ul {
+        display: inline-block;
+        list-style: none; }
+        body #about .skills ul li {
+          letter-spacing: 1px;
+          line-height: 20px; }
+    @media screen and (max-width: 600px) {
+      body #about img, body #about .blurb, body #about .skills {
+        float: none;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        padding: 0; }
+        body #about img h2, body #about .blurb h2, body #about .skills h2 {
+          text-align: center;
+          display: block; } }
+  body footer {
+    background-color: #000;
+    color: #999; }
+    body footer p {
+      font-size: 10px;
+      text-align: center;
+      margin: 0;
+      border-top: 150px solid #000;
+      border-bottom: 20px solid #000; }

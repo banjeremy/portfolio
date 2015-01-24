@@ -1,0 +1,19 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "landing page for jeremyjones.ninja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "banjeremy",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.10",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^0.11.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-sass": "^1.3.2"
+  }
+}

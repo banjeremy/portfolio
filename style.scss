@@ -1,0 +1,238 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,200);
+$fontWeightHeavy: 700;
+$fontWeightNormal: 400;
+$fontWeightLight: 200;
+
+$blackground: #222;
+
+$white: #E6E6E6;
+$ltGreen: #00CEBE;
+$green: #008173;
+$ltOrange: #FF6434;
+$orange: #D63C1D;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: $blackground;
+  background-color: #E6E6E6;
+
+  header {
+    background-color: $blackground;
+    color: $white;
+    text-align: center;
+    width: 100%;
+
+    .greeting {
+      letter-spacing: 1px;
+
+      h1 {
+        font-size: 36px;
+        margin-top: 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: $fontWeightLight;
+      }
+    }
+  }
+
+  .container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  #tools {
+    margin: 40px 0;
+    text-align: center;
+
+    h2 {
+      text-align: left;
+    }
+
+    .devicons {
+      color: $orange;
+      display: inline-block;
+      font-size: 50px;
+      width: 50px;
+      margin: 20px;
+    }
+  }
+
+  #work {
+    background-color: $blackground;
+    color: $white;
+    text-align: center;
+    padding: 40px 0;
+
+    h2 {
+      margin-top: 0;
+      letter-spacing: 1px;
+      text-align: left;
+    }
+
+    #project {
+      display: inline-block;
+      margin: 0 20px;
+
+      h4 {
+        color: $white;
+        font-weight: $fontWeightLight;
+        border-bottom: 1px dashed $white;
+        display: inline-block;
+        padding: 0 20px;
+
+        span {
+          letter-spacing: 1px;
+          width: 200px;
+          display: inline-block;
+          border-bottom: 3px solid $white;
+          position: relative;
+          top: 2px;
+          padding-bottom: 5px;
+          text-align: center;
+
+        }
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+
+  #social {
+    padding: 40px;
+
+    ul {
+      margin: 20px 0;
+      list-style: none;
+      padding: 0;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        width: 25%;
+
+        a {
+          color: $green;
+          text-decoration: none;
+
+          &:hover,
+          &:active {
+            color: $ltGreen;
+          }
+        }
+      }
+    }
+  }
+
+  #about {
+    background-color: #2d2d2d;
+    padding: 40px 0;
+
+    h2 {
+      color: $white;
+      font-weight: $fontWeightLight;
+      border-bottom: 1px dashed $white;
+      display: inline-block;
+      padding: 0 20px;
+
+      span {
+        letter-spacing: 1px;
+        width: 200px;
+        display: inline-block;
+        border-bottom: 3px solid $white;
+        position: relative;
+        top: 2px;
+        padding-bottom: 5px;
+        text-align: center;
+      }
+    }
+
+    img {
+      max-width: 300px;
+      float: left;
+      width: 40%;
+    }
+
+    .blurb {
+      padding-left: 60px;
+      width: 60%;
+      float: left;
+
+      p {
+        color: $white;
+        line-height: 25px;
+        letter-spacing: 1px;
+      }
+    }
+
+    .skills {
+      float: left;
+      padding-left: 60px;
+      color: #777;
+
+      ul {
+        display: inline-block;
+        list-style: none;
+
+        li {
+          letter-spacing: 1px;
+          line-height: 20px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      img,
+      .blurb,
+      .skills {
+        float: none;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+
+        h2 {
+          text-align: center;
+          display: block;
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #000;
+    color: #999;
+
+    p {
+      font-size: 10px;
+      text-align: center;
+      margin: 0;
+      border-top: 150px solid #000;
+      border-bottom: 20px solid #000;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    meta(name='viewport', content='width=device-width', initial-scale=1)
+    link(rel='stylesheet', href='style.css')
+    link(rel='stylesheet', href='bower_components/devicons/css/devicons.min.css')
+    link(rel='stylesheet', href='bower_components/font-awesome/css/font-awesome.min.css')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='site.js')
+  body
+    header.fill-viewport
+      .greeting.vertical
+        h1=greeting[0]
+        h2=greeting[1]
+    section#tools
+      .container
+        h2 I work with these:
+        each devicon in devicons
+          span.devicons(class='devicons-' + devicon)
+    section#work
+      .container
+        h2 To make things like:
+        each project in projects
+          #project
+            h4
+              span=project.name
+            img(src=project.image)
+    section#social
+      .container        
+        h2 Let&apos;s make things together
+        ul 
+          each network in social
+            li: a(href=network.url, target='_blank')
+              span(class='fa fa-3x fa-' + network.name)
+    section#about
+      .container
+        img(src=image)
+        .blurb
+          h2
+            span About me
+          p=about
+        .skills
+          h2
+            span Skills
+          div
+            ul
+              each skill in skills.geek
+                li=skill
+            ul
+              each skill in skills.human
+                li=skill
+            
+          
+    
+    footer
+      p &copy; 2015 Jeremy Jones
+            
