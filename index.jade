@@ -6,6 +6,7 @@ html(lang="en")
     link(rel='stylesheet', href='style.css')
     link(rel='stylesheet', href='bower_components/devicons/css/devicons.min.css')
     link(rel='stylesheet', href='bower_components/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='bower_components/animate.css/animate.min.css')
     script(src='bower_components/jquery/dist/jquery.min.js')
     script(src='site.js')
   body
@@ -13,6 +14,7 @@ html(lang="en")
       .greeting.vertical
         h1=greeting[0]
         h2=greeting[1]
+      .fa.fa-3x.fa-angle-down.infinite.bounce.animated
     section#tools
       .container
         h2 I work with these:
@@ -50,9 +52,7 @@ html(lang="en")
             ul
               each skill in skills.human
                 li=skill
-            
-          
-    
+                
     footer
       p &copy; 2015 Jeremy Jones
             

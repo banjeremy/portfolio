@@ -19,7 +19,8 @@ body {
     background-color: #222;
     color: #E6E6E6;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
     body header .greeting {
       letter-spacing: 1px; }
       body header .greeting h1 {
@@ -28,6 +29,11 @@ body {
       body header .greeting h2 {
         font-size: 24px;
         font-weight: 200; }
+    body header .fa-angle-down {
+      position: absolute;
+      bottom: 10px;
+      margin-left: -16px;
+      color: #008173; }
   body .container {
     max-width: 1200px;
     padding: 0 20px;
