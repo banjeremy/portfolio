@@ -29,15 +29,19 @@ body {
 
 body {
   font-family: 'Raleway', sans-serif;
-  color: $blackground;
-  background-color: #E6E6E6;
+  background-color: $blackground;
+
+  canvas {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
 
   header {
-    background-color: $blackground;
     color: $white;
     text-align: center;
     width: 100%;
-    position: relative;
 
     .greeting {
       letter-spacing: 1px;
@@ -57,7 +61,7 @@ body {
       position: absolute;
       bottom: 10px;
       margin-left: -16px;
-      color: $green;
+      color: $white;
     }
   }
 
@@ -69,8 +73,11 @@ body {
   }
 
   #tools {
-    margin: 40px 0;
+    padding: 40px 0;
     text-align: center;
+
+    color: $blackground;
+    background-color: #E6E6E6;
 
     h2 {
       text-align: left;
@@ -132,6 +139,8 @@ body {
 
   #social {
     padding: 40px;
+    color: $blackground;
+    background-color: #E6E6E6;
 
     ul {
       margin: 20px 0;
@@ -232,15 +241,13 @@ body {
   }
 
   footer {
-    background-color: #000;
     color: #999;
 
     p {
+      padding: 200px 0 10px;
       font-size: 10px;
       text-align: center;
       margin: 0;
-      border-top: 150px solid #000;
-      border-bottom: 20px solid #000;
     }
   }
 }

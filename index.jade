@@ -8,7 +8,9 @@ html(lang="en")
     link(rel='stylesheet', href='bower_components/font-awesome/css/font-awesome.min.css')
     link(rel='stylesheet', href='bower_components/animate.css/animate.min.css')
     script(src='bower_components/jquery/dist/jquery.min.js')
-    script(src='site.js')
+    script(src='vendor/threejs/three.min.js')
+    script(src='vendor/threejs/CanvasRenderer.js')
+    script(src='vendor/threejs/Projector.js')
   body
     header.fill-viewport
       .greeting.vertical
@@ -55,4 +57,5 @@ html(lang="en")
                 
     footer
       p &copy; 2015 Jeremy Jones
-            
+    script(src='site.js')
+  

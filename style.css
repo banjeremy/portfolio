@@ -13,14 +13,16 @@ html, body {
 
 body {
   font-family: 'Raleway', sans-serif;
-  color: #222;
-  background-color: #E6E6E6; }
+  background-color: #222; }
+  body canvas {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1; }
   body header {
-    background-color: #222;
     color: #E6E6E6;
     text-align: center;
-    width: 100%;
-    position: relative; }
+    width: 100%; }
     body header .greeting {
       letter-spacing: 1px; }
       body header .greeting h1 {
@@ -33,15 +35,17 @@ body {
       position: absolute;
       bottom: 10px;
       margin-left: -16px;
-      color: #008173; }
+      color: #E6E6E6; }
   body .container {
     max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
     overflow: hidden; }
   body #tools {
-    margin: 40px 0;
-    text-align: center; }
+    padding: 40px 0;
+    text-align: center;
+    color: #222;
+    background-color: #E6E6E6; }
     body #tools h2 {
       text-align: left; }
     body #tools .devicons {
@@ -83,7 +87,9 @@ body {
         width: 200px;
         height: 200px; }
   body #social {
-    padding: 40px; }
+    padding: 40px;
+    color: #222;
+    background-color: #E6E6E6; }
     body #social ul {
       margin: 20px 0;
       list-style: none;
@@ -148,11 +154,9 @@ body {
           text-align: center;
           display: block; } }
   body footer {
-    background-color: #000;
     color: #999; }
     body footer p {
+      padding: 200px 0 10px;
       font-size: 10px;
       text-align: center;
-      margin: 0;
-      border-top: 150px solid #000;
-      border-bottom: 20px solid #000; }
+      margin: 0; }
