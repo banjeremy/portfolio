@@ -26,12 +26,12 @@ html(lang="en")
       .container
         h2 To make things like:
         each project in projects
-          #project
+          a#project(href=project.url, target='_blank')
             h4
               span=project.name
             img(src=project.image)
     section#social
-      .container        
+      .container
         h2 Let&apos;s make things together
         ul 
           each network in social

@@ -37,19 +37,19 @@
   ],
   "projects": [
     {
-      "image": "",
+      "image": "img/nashvestn.png",
       "name": "NashvesTN",
-      "url": "http://github.com/banjeremy/nashvestn"
+      "url": "https://github.com/banjeremy/nashvestn-server"
     },
     {
-      "image": "",
-      "name": "Angular Mad Libs",
-      "url": "http://github.com/banjeremy/"
+      "image": "img/daft-libs.png",
+      "name": "Daft Libs",
+      "url": "https://github.com/banjeremy/daft-libs"
     },
     {
-      "image": "",
-      "name": "Another project",
-      "url": "http://github.com/banjeremy/"
+      "image": "img/top-secret.jpg",
+      "name": "Also",
+      "url": null
     }
   ],
   "social": [

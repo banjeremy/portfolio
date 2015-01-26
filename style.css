@@ -59,6 +59,10 @@ body {
     color: #E6E6E6;
     text-align: center;
     padding: 40px 0; }
+    body #work .disclaimer {
+      font-weight: 200; }
+      body #work .disclaimer b {
+        color: #D63C1D; }
     body #work h2 {
       margin-top: 0;
       letter-spacing: 1px;
@@ -85,7 +89,8 @@ body {
         display: block;
         margin: 0 auto;
         width: 200px;
-        height: 200px; }
+        height: 200px;
+        border: 1px solid #E6E6E6; }
   body #social {
     padding: 40px;
     color: #222;

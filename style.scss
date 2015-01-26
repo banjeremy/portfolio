@@ -98,6 +98,14 @@ body {
     text-align: center;
     padding: 40px 0;
 
+    .disclaimer {
+        font-weight: $fontWeightLight;
+
+      b {
+        color: $orange;
+      }
+    }
+
     h2 {
       margin-top: 0;
       letter-spacing: 1px;
@@ -133,6 +141,7 @@ body {
         margin: 0 auto;
         width: 200px;
         height: 200px;
+        border: 1px solid $white;
       }
     }
   }
