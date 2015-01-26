@@ -70,14 +70,14 @@
       "url": "mailto:banjeremy@gmail.com"
     }
   ],
-  "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "about": "I am a full stack developer based in Nashville. I enjoy creating fantastic user-facing web applications, as well as writing developer-friendly APIs. I have a passion for MVC frameworks, and JavaScript-heavy apps. Lately I've been doing a lot of AngularJS and Node. I'm inspired by simplicity and beautiful, elegant code. When I'm not making a living, I enjoy traveling, participating in Hackathons, video games, and some creative coding.",
   "skills": {
     "geek": [
       "HTML5",
       "CSS3/Less/Sass",
       "Javascript & jQuery",
       "AngularJS",
-      "NodeJS",
+      "Node.js",
       "Ruby on Rails",
       "ASP.Net MVC",
       "SQL/NoSQL"
