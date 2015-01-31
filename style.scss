@@ -223,6 +223,11 @@ body {
       ul {
         display: inline-block;
         list-style: none;
+        padding: 0;
+
+        +ul {
+          padding-left: 20px;
+        }
 
         li {
           letter-spacing: 1px;
@@ -244,6 +249,12 @@ body {
         h2 {
           text-align: center;
           display: block;
+        }
+
+        ul {
+          display: block;
+          text-align: center;
+          padding: 0 !importantl
         }
       }
     }

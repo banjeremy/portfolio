@@ -144,7 +144,10 @@ body {
       color: #777; }
       body #about .skills ul {
         display: inline-block;
-        list-style: none; }
+        list-style: none;
+        padding: 0; }
+        body #about .skills ul + ul {
+          padding-left: 20px; }
         body #about .skills ul li {
           letter-spacing: 1px;
           line-height: 20px; }
@@ -157,7 +160,11 @@ body {
         padding: 0; }
         body #about img h2, body #about .blurb h2, body #about .skills h2 {
           text-align: center;
-          display: block; } }
+          display: block; }
+        body #about img ul, body #about .blurb ul, body #about .skills ul {
+          display: block;
+          text-align: center;
+          padding: 0 !important l; } }
   body footer {
     color: #999; }
     body footer p {
