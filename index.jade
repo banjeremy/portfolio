@@ -3,6 +3,8 @@ html(lang="en")
   head
     title= pageTitle
     meta(name='viewport', content='width=device-width', initial-scale=1)
+    meta(name='description', content='Jeremy Jones. Nashville-based Web Developer for hire.')
+    meta(name='keywords', content='Jeremy Jones,Nashville,Tennessee,TN,Software,Web,Developer,Programmer,Front-end,Front,end,JavaScript,Node,Node.js,AngularJS,ASP.Net,C#,Apps')
     link(rel='stylesheet', href='style.css')
     link(rel='stylesheet', href='bower_components/devicons/css/devicons.min.css')
     link(rel='stylesheet', href='bower_components/font-awesome/css/font-awesome.min.css')
@@ -54,6 +56,9 @@ html(lang="en")
             ul
               each skill in skills.human
                 li=skill
+    section#resume
+      h1
+        a(href='jeremy_jones_resume.pdf', target="_blank") Check out my resume
                 
     footer
       p &copy; 2015 Jeremy Jones

@@ -236,6 +236,7 @@ body {
       }
     }
 
+
     @media screen and (max-width: 600px) {
       img,
       .blurb,
@@ -260,14 +261,42 @@ body {
     }
   }
 
+  #resume {
+    text-align: center;
+
+    h1 {
+      font-size: 40px;
+      line-height: 200px;
+
+      a {
+        text-decoration: none;
+        color: $white;
+
+        &:hover,
+        &:active {
+          text-decoration: underline;
+          color: $ltOrange;
+        }
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 30px;
+      }
+    }
+
+  }
+
   footer {
+    background-color: #000;
     color: #999;
 
     p {
-      padding: 200px 0 10px;
       font-size: 10px;
       text-align: center;
       margin: 0;
+      padding: 10px 0;
     }
   }
 }

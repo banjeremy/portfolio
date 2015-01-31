@@ -165,10 +165,25 @@ body {
           display: block;
           text-align: center;
           padding: 0 !important l; } }
+  body #resume {
+    text-align: center; }
+    body #resume h1 {
+      font-size: 40px;
+      line-height: 200px; }
+      body #resume h1 a {
+        text-decoration: none;
+        color: #E6E6E6; }
+        body #resume h1 a:hover, body #resume h1 a:active {
+          text-decoration: underline;
+          color: #FF6434; }
+    @media screen and (max-width: 600px) {
+      body #resume h1 {
+        font-size: 30px; } }
   body footer {
+    background-color: #000;
     color: #999; }
     body footer p {
-      padding: 200px 0 10px;
       font-size: 10px;
       text-align: center;
-      margin: 0; }
+      margin: 0;
+      padding: 10px 0; }
