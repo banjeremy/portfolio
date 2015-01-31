@@ -151,8 +151,12 @@ body {
     color: $blackground;
     background-color: #E6E6E6;
 
+    h2 {
+      margin-top: 0;
+    }
+
     ul {
-      margin: 20px 0;
+      margin: 40px 0 20px;
       list-style: none;
       padding: 0;
       text-align: center;
