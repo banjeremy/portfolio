@@ -47,9 +47,9 @@
       "url": "https://github.com/banjeremy/daft-libs"
     },
     {
-      "image": "img/top-secret.jpg",
-      "name": "Also",
-      "url": null
+      "image": "img/three.png",
+      "name": "Three.js Demos",
+      "url": "https://github.com/banjeremy/3d-scene"
     }
   ],
   "social": [
